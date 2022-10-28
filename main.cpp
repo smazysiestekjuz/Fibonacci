@@ -20,11 +20,11 @@ int main()
 
 cout<<setprecision(10000);
 
-  //  for (int i=0; i<n; i++)
-   // {
-   //    cout<<endl<<"wyraz nr"<<i+1<<": "<<fib[i];
-  //  }
-//cout<<endl<<"wyraz nr "<<n<<":"<<fib[n-1];
+//for (int i=0; i<n; i++)
+//{
+//     cout<<endl<<"wyraz nr"<<i+1<<": "<<fib[i];
+//}
+cout<<endl<<"wyraz nr "<<n<<":"<<fib[n-1];
 cout<<"zlota liczba: "<<fib[n-1]/fib[n-2];
     return 0;
 }
